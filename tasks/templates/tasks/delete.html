@@ -1,0 +1,7 @@
+<h3>Delete Tasks</h3>
+
+<form method="POST" >
+    {% csrf_token %}
+    <a href="{% url 'index' %}">Cancel</a>
+    <input type="submit">
+</form>
